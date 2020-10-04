@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.10.2-web/css/all.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <form name="registration">
+                <div class="form__input">
+                    <span class="form__icon">
+                        <i class="form-icon far fa-user"></i>
+                    </span>
+                    <input name="first-name" type="text" placeholder="First Name" class="first-name" required><br>
+                </div>
+                <div class="form__input">
+                    <span class="form__icon">
+                        <i class="form-icon far fa-user"></i>
+                    </span>
+                    <input name="last-name" type="text" placeholder="Last Name" class="last-name" required><br>
+                </div>
+                <div class="form__input">
+                    <span class="form__icon">
+                        <i class="far fa-calendar"></i>
+                    </span>
+                    <input name="age" type="text" placeholder="Age" class="age" required><br>
+                </div>
+                <div class="form__input">
+                    <span class="form__icon">
+                        <i class="far fa-envelope"></i>
+                    </span>
+                    <input name="email" type="text" placeholder="Email" class="email" required><br>
+                </div>
+                <div class="radio">
+                    <span class="form__icon"><i class="fas fa-venus-mars"></i></span>
+                    <span class="form__radio-btn">Gender</span><br>
+                    <ul class="radio__list">
+                        <li class="radio__list-item">
+                          <input type="radio" id="f-option" name="selector" value="Male" checked>
+                          <label for="f-option">Male</label>
+                          
+                          <div class="check"></div>
+                        </li>
+                        
+                        <li class="radio__list-item">
+                          <input type="radio" id="s-option" name="selector" value="Female">
+                          <label for="s-option">Female</label>
+                          
+                          <div class="check"><div class="inside"></div></div>
+                        </li>
+                    </ul>
+                </div>
+                <input type="submit" value="Register" class="btn btn--green btn-register">
+            </form>
+        </div>
+    </div>
+</body>
+<script src="validate.js"></script>
+</html>

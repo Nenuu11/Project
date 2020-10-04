@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/fontawesome-free-5.10.2-web/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+    <div class="exam">
+        <h1>HARRY POTTER QUIZ</h1>
+        <div class="exam__question">
+            <div class="exam__container">
+                <div class="ans-ques">
+                    <span class="question"></span>
+                    <div class="exam__answer">
+                        <div class="exam__answer-info">
+                            <input type="radio" name="ans-selector" class="exam__ans" value=""><label class="ans"></label>
+                            <input type="radio" name="ans-selector" class="exam__ans" value=""><label class="ans"></label>
+                            <input type="radio" name="ans-selector" class="exam__ans" value=""><label class="ans"></label>
+                            <input type="radio" name="ans-selector" class="exam__ans" value=""><label class="ans"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="exam__btns">
+                    <button class="btn btn--green btn--sm exam__prev">Previous</button>
+                    <button class="btn btn--green btn--sm exam__skip">Skip</button>
+                    <button class="btn btn--green btn--sm exam__next">Next</button>
+                    <button class="btn btn--green btn--sm exam__submit">Submit</button>
+                </div>
+            </div>
+            <div class="exam__skipped-list">
+                <!-- <button class="btn btn--lightGrey btn--sm skipped-question"></button> -->
+            </div>
+
+            <div class="exam__finished">
+                <h1 class="exam__finished-content"></h1>
+                <div class="user-data1"></div>
+                <div class="user-data2"></div>
+                <div class="user-data3"></div>
+                <div class="exam__score"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
